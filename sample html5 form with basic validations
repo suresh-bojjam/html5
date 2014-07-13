@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Application</title>
+</head>
+<body>
+
+<form action="#" method="post">
+    <h2><legend>Step1: </legend></h2>
+    <h3><caption><b style="color: #808080">Personal</b></caption></h3>
+<fieldset style="width:500px;>
+    <div align="left">
+    <label>First Name</label>
+        <input type="text" required autofocus placeholder="Enter the First Name">
+    </div>
+    <div align="left">
+        <label>Middle Name</label>
+        <input type="text" required autofocus placeholder="Enter the Last Name">
+    </div>
+    <div align="left">
+        <label>Last Name</label>
+        <input type="text" required autofocus placeholder="Enter the Last Name">
+    </div>
+    <div align="left">
+        <label>Gender:</label><br>
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="radio" ><label>FeMale</label>
+        <input type="radio"><label>Male</label>
+    </div>
+    <div align="left">
+        <label>D.O.B</label>
+       <input type="date">
+    </div>
+</fieldset>
+    <h2><legend>Step2: </legend></h2>
+    <caption><b style="color: #808080">Education</b></caption>
+    <fieldset style="width: 500px">
+        <b style="color: #808080">Higher Education</b>
+        <fieldset style="width:450px;">
+            <div align="left">
+                <label>Degree</label>
+                <input type="text" required autofocus placeholder="Enter the First Name">
+            </div>
+            <div align="left">
+                <label>Branch</label>
+                <input type="text" required autofocus placeholder="Enter the Last Name">
+            </div>
+            <div align="left">
+                <label>College</label>
+                <input type="text" required autofocus placeholder="Enter the Last Name">
+            </div>
+            <div>
+                <label>Date Of Completion</label>
+                <input type="date">
+            </div>
+        </fieldset>
+        <br>
+        <b style="color: #808080">College</b>
+        <fieldset style="width:450px;">
+            <div align="left">
+                <label>Inter/Diploma</label>
+                <input type="text" required autofocus placeholder="Enter the First Name">
+            </div>
+            <div align="left">
+                <label>Branch</label>
+                <input type="text" required autofocus placeholder="Enter the Last Name">
+            </div>
+            <div align="left">
+                <label>College</label>
+                <input type="text" required autofocus placeholder="Enter the Last Name">
+            </div>
+            <div>
+                <label>Date Of Completion</label>
+                <input type="date">
+            </div>
+        </fieldset>
+        <br>
+        <b style="color: #808080">School</b>
+        <fieldset style="width:450px;">
+            <div align="left">
+                <label>STATE/CBSE</label>
+                <input type="text" required autofocus placeholder="Enter the First Name">
+            </div>
+            <div align="left">
+                <label>Medium</label>
+                <input type="text" required autofocus placeholder="Enter the Last Name">
+            </div>
+            <div align="left">
+                <label>School</label>
+                <input type="text" required autofocus placeholder="Enter the Last Name">
+            </div>
+            <div>
+                <label>Date Of Completion</label>
+                <input type="date">
+            </div>
+        </fieldset>
+        <br>
+    </fieldset>
+    <br>
+    <fieldset style="width:500px;">
+        <label>Summary</label>
+        <div>
+            <textarea style="width: 450px"></textarea>
+        </div>
+    </fieldset>
+    <br>
+<fieldset style="width: 500px">
+    <div>
+        <p>
+        I read and accept all mentioned rules & policies of company and i agree to disqualify<br>
+            if you found any anonymous data at any time recruitment before got a job.
+        </p>
+        <label>Upload Resume</label>
+        <input type="file"><br><br>
+        <input type="checkbox" required>
+        <label>I Agree</label>
+
+    </div>
+    <br>
+<div>
+
+    <input type="submit" style="color: darkgoldenrod">
+    <label>Submit</label>
+</div>
+</fieldset>
+</form>
+</body>
+</html>
